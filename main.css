@@ -1,0 +1,742 @@
+
+
+.h{
+	max-width: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body a,
+body button,
+.banner{
+	color:  white;
+	text-align: left;
+	letter-spacing: 4px;
+	font-weight: 0;
+	padding-top: 150px;
+	font-size: 30px;
+	opacity: 0.9;
+	padding-left: 5px;
+	
+	line-height: 1.2;
+}
+.btn {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-decoration: none;
+    font-weight: 50px;
+    color: white;
+    opacity: 100;
+}
+
+body a:hover,
+body button:hover,
+.btn:hover {
+    opacity: .8;
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #999;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none
+}
+
+/* //Reset Code */
+
+/* colors code */
+.text-bl {
+    color: #343a40;
+}
+
+.text-wh {
+    color: #fff;
+}
+
+.text-li {
+    color: #f8f9fa;
+}
+
+.let {
+    letter-spacing: 1px;
+}
+
+/* //colors code */
+
+
+
+/* //header */
+
+/* banner */
+.banner-top1 {
+    background: url(./images/2-01.jpeg) no-repeat top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    min-height: 700px;
+    max-height: 800px;
+    position: relative;
+    z-index: 1;
+}
+
+
+a.logo {
+    font-size: 52px;
+    letter-spacing: 9px;
+}
+
+
+.button-style {
+    padding: 14px 30px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 5px;
+    border-color: #eee;
+}
+
+.button-style:hover,
+a.logo:hover {
+    color: #fff;
+}
+
+/* //banner */
+
+/* navigation bar*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* //navigation bar*/
+
+/* about */
+.about-right {
+    margin-top: 6em;
+    padding-left: 200px;
+
+}
+
+h3.tittle-2 {
+    font-size: 24px;
+    color: #444444;
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 0;
+    letter-spacing: 8px;
+    top: 40%;
+}
+
+h4.about-tit {
+    font-size: 50px;
+    color: #333;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+
+/* resume */
+html,body,div,span,object,iframe,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+min-width: 320px;
+}
+
+html, body {font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+
+.resume-clear {clear: both;}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+#cv {
+	width: 90%;
+	max-width: 1000px;
+	background: #f3f3f3;
+	margin: 30px auto;
+}
+
+.resume-mainDetails {
+	padding: 25px 35px;
+	border-bottom: 2px solid #cf8a05;
+	background: #ededed;
+}
+
+#resume-name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-bottom: -6px;
+}
+
+#resume-name h2 {
+	font-size: 2em;
+	margin-left: 2px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+#resume-mainArea {
+	padding: 0 40px;
+}
+
+#resume-headshot {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+}
+
+#resume-headshot img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 60px;
+}
+
+#resume-name {
+	float: left;
+}
+
+#resume-contactDetails {
+	float: right;
+}
+
+#resume-contactDetails ul {
+	list-style-type: none;
+	font-size: 0.9em;
+	margin-top: 2px;
+}
+
+#resume-contactDetails ul li {
+	margin-bottom: 3px;
+	color: #444;
+}
+
+#resume-contactDetails ul li a, a[href^=tel] {
+	color: #444; 
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+#resume-contactDetails ul li a:hover { 
+	color: #cf8a05;
+}
+
+
+
+
+section {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+}
+
+.resume-sectionTitle {
+	float: left;
+	width: 25%;
+}
+
+.resume-sectionContent {
+	float: right;
+	width: 72.5%;
+}
+
+.resume-sectionTitle h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: #cf8a05;
+}
+
+.resume-sectionContent h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+
+}
+
+.resume-subDetails {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 3px;
+	text-align: justify;
+}
+
+.resume-keySkills {
+	list-style-type: none;
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:3;
+	margin-bottom: 20px;
+	font-size: 1em;
+	color: #444;
+}
+
+.resume-keySkills ul li {
+	margin-bottom: 3px;
+}
+
+@media all and (min-width: 602px) and (max-width: 800px) {
+	#resume-headshot {
+		display: none;
+	}
+	
+	.resume-keySkills {
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
+	}
+}
+
+@media all and (max-width: 601px) {
+	#cv {
+		width: 95%;
+		margin: 10px auto;
+		min-width: 280px;
+	}
+	
+	#resume-headshot {
+		display: none;
+	}
+	
+	#resume-name, #resume-contactDetails {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.resume-sectionTitle, .resume-sectionContent {
+		float: none;
+		width: 100%;
+	}
+	
+	.resume-sectionTitle {
+		margin-left: -2px;
+		font-size: 1.25em;
+	}
+	
+	.resume-keySkills {
+		-moz-column-count:2;
+		-webkit-column-count:2;
+		column-count:2;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.resume-mainDetails {
+		padding: 15px 15px;
+	}
+	
+	section {
+		padding: 15px 0 0;
+	}
+	
+	#resume-mainArea {
+		padding: 0 25px;
+	}
+
+	
+	.resume-keySkills {
+	-moz-column-count:1;
+	-webkit-column-count:1;
+	column-count:1;
+	}
+	
+	#resume-name h1 {
+		line-height: .8em;
+		margin-bottom: 4px;
+	}
+}
+
+@media print {
+    #cv {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* resume */
+
+/* acievements */
+		* {
+  box-sizing: border-box;
+}
+
+
+		.acievements {
+		  background-color: #474e5d;
+		  font-family: Helvetica, sans-serif;
+		}
+
+		/* The actual timeline (the vertical ruler) */
+		.a-timeline {
+		  position: relative;
+		  max-width: 1000px;
+		  margin: 0 auto;
+		  padding-top: 30px;
+		  padding-bottom: 30px;
+		}
+
+		/* The actual timeline (the vertical ruler) */
+		.a-timeline::after {
+		  content: '';
+		  position: absolute;
+		  width: 6px;
+		  background-color: white;
+		  top: 0;
+		  bottom: 0;
+		  left: 50%;
+		  margin-left: -3px;
+
+		}
+
+		/* Container around content */
+		.a-container {
+
+		  padding: 10px 40px;
+		  position: relative;
+		  background-color: inherit;
+		  width: 50%;
+		}
+
+		/* The circles on the timeline */
+		.a-container::after {
+		  content: '';
+		  position: absolute;
+		  width: 25px;
+		  height: 25px;
+		  right: -17px;
+		  background-color: #37de2f;
+		  border: 4px solid green;
+		  top: 15px;
+		  border-radius: 50%;
+		  z-index: 1;
+		}
+
+		/* Place the container to the left */
+		.a-left {
+		  left: 0;
+		}
+
+		/* Place the container to the right */
+		.a-right {
+		  left: 50%;
+
+		}
+
+		/* Add arrows to the left container (pointing right) */
+		.a-left::before {
+		  content: " ";
+		  height: 0;
+		  position: absolute;
+		  top: 22px;
+		  width: 0;
+		  z-index: 1;
+		  right: 30px;
+		  border: medium solid white;
+		  border-width: 10px 0 10px 10px;
+		  border-color: transparent transparent transparent white;
+		}
+
+		/* Add arrows to the right container (pointing left) */
+		.a-right::before {
+		  content: " ";
+		  height: 0;
+		  position: absolute;
+		  top: 22px;
+		  width: 0;
+		  z-index: 1;
+		  left: 30px;
+		  border: medium solid white;
+		  border-width: 10px 10px 10px 0;
+		  border-color: transparent white transparent transparent;
+		  
+		}
+
+		/* Fix the circle for containers on the right side */
+		.a-right::after {
+		  left: -16px;
+		}
+
+		/* The actual content */
+		.a-content {
+		  padding: 20px 30px;
+		  background-color: white;
+		  position: relative;
+		  border-radius: 6px;
+		}
+
+		/* Media queries - Responsive timeline on screens less than 600px wide */
+		@media screen and (max-width: 600px) {
+		  /* Place the timelime to the left */
+		  .a-timeline::after {
+		  left: 31px;
+		  }
+		  
+		  /* Full-width containers */
+		  .a-container {
+		  width: 100%;
+		  padding-left: 70px;
+		  padding-right: 25px;
+		  }
+		  
+		  /* Make sure that all arrows are pointing leftwards */
+		  .a-container::before {
+		  left: 60px;
+		  border: medium solid white;
+		  border-width: 10px 10px 10px 0;
+		  border-color: transparent white transparent transparent;
+		  }
+
+		  /* Make sure all circles are at the same spot */
+		  .a-left::after, .a-right::after {
+		  left: 15px;
+		  }
+		  
+		  /* Make all right containers behave like the left ones */
+		  .a-right {
+		  left: 0%;
+		  }
+		}
+
+
+
+/* acievements */
+
+
+/* publications */
+.publication{
+
+	width: 1000px;
+	background-color: #a2b88a;
+	text-align: justify;
+	color: black;
+
+}
+.arrange{
+	
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 50px;
+}
+
+.paperlink{
+	color: black;
+	font-size: 20px;
+}
+.status{
+	font-style: bold;
+	color: black;
+
+}
+
+
+
+/* publications */
+
+/* gallary*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  
+  word-break: break-all;
+}
+
+.row1 {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row1,
+.row1 > .column1 {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content1 {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column1 {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+  }
+}
+/* gallary*/
+
+.links{
+	color: black;
+	text-decoration: none;
+	letter-spacing: 0;
+	font-size: 17px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/*footer*/
+
+.imagesize{
+  height: 60px;
+  width: 60px;
+  padding-left: 5px;
+  border-radius: 40px;
+  
+}
+.footbanner{
+	color:  white;
+	text-align: center;
+	letter-spacing: 6px;
+	font-weight: 200;
+	padding-top: 100px;
+	font-size: 25px;
+	opacity: 1;
+	font-family: "Source sans-pro", sans-serif;
+	line-height: 1.2;
+}
+
+.foot-banner-top1 {
+    background: url(./images/footer.jpg) no-repeat top;
+    filter: hue-rotate(20deg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    min-height: 600px;
+    max-height: 700px;
+    position: relative;
+    z-index: 1;
+    font-family: "Source sans-pro", sans-serif;
+}
+.t{
+	color: black;
+	font-size: 20px;
+	padding-top: 100px;
+	font-style: bold;
+}
+/*footer*/
